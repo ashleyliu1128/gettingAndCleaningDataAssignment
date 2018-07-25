@@ -1,0 +1,19 @@
+---
+title: "README"
+output: html_document
+---
+
+This README markdown file summarizes the steps of the R script: run_analysis.R.
+
+Since the assignment doesn't require the download and unzip processes to be put into the R script, the prerequisite of executing the R script is to download the zip file and unzip the folder in the working directory.
+
+Then the R script does the following:
+    1. Load the test and train data set in, and merge the two sets into one
+    2. Extracts only the measurements on the mean and standard deviation for each measurement
+    3. Load the activity label and sets in, and merge the two activity data sets into one
+    4. Use the activity label names to name each activity (columns of the data set)
+    5. Appropriately labels the data set with descriptive variable names
+    6. Load subject sets in and merge the two sets into one
+    7. Creates a second, independent tidy data set with the average of each variable for each activity and each subject
+
+The result set is stored in tidy_average.txt.
